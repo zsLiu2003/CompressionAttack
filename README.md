@@ -292,9 +292,9 @@ Edit `hardcom/config.py` to set up model paths:
 
 ```python
 # Model paths
-COMPRESSION_MODEL_PATH = "path/to/gpt2-dolly"
+COMPRESSION_MODEL_PATH = "path/to/compression-model"
 LARGE_MODEL_PATH = "path/to/Qwen3-32B"
-LLAMA2_PATH = "path/to/Llama-2-7b-chat-hf"
+LLAMA_PATH = "path/to/model"
 MISTRAL_PATH = "path/to/Mistral-7B-Instruct-v0.2"
 
 # CUDA settings
