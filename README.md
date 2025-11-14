@@ -3,7 +3,7 @@
 ### Attack Methodologies
 
 1. **HardCom (Hard Compression Attack)**
-   - Targets rule-based/algorithmic compression methods (e.g., LLMLingua, LLMLingua2)
+   - Targets rule-based/algorithmic compression methods (e.g., Selective Context, LLMLingua)
    - Uses token/word/target-level manipulation and adversarial prompt injection
 
 2. **SoftCom (Soft Compression Attack)**  
@@ -20,7 +20,6 @@ Compressionattack/
 │   ├── src/
 │   │   ├── attacks/                  # Attack implementations
 │   │   │   ├── attack_llmlingua.py   # Attack against LLMLingua
-│   │   │   ├── attack_llmlingua2.py  # Attack against LLMLingua2
 │   │   │   └── baseline_prompt.py    # Baseline attacks
 │   │   │
 │   │   ├── defense/                  # Defense mechanisms
