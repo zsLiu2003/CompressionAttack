@@ -19,7 +19,7 @@ Compressionattack/
 ├── hardcom/                           # HardCom: Attacks on Rule-based Compression
 │   ├── src/
 │   │   ├── attacks/                  # Attack implementations
-│   │   │   ├── attack_llmlingua.py   # Attack against LLMLingua
+│   │   │   ├── attack_compression.py   # Attack against LLMLingua
 │   │   │   └── baseline_prompt.py    # Baseline attacks
 │   │   │
 │   │   ├── defense/                  # Defense mechanisms
